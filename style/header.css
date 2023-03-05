@@ -1,0 +1,418 @@
+body {
+    font-family: 'Goldman', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Kharkiv Tone', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+.header {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container {
+    width: 71vw;
+}
+
+.header-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.header-user {
+    font-family: 'Kharkiv Tone';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.header-nav {
+    width: 331px;
+    font-family: 'Kharkiv Tone';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.header-nav-top {
+    margin-bottom: 4%;
+}
+
+
+.header-nav-about {
+    margin-right: 9%;
+}
+
+.header-nav-skills {
+    margin-right: 4%;
+}
+
+.home {
+    position: relative;
+    padding-top: 10vh;
+    width: 64vw;
+}
+
+.home-hedding {
+    font-family: 'Kharkiv Tone';
+    font-weight: 400;
+    font-size: 8.5vh;
+    line-height: 9vh;
+    width: 100vh;
+}
+
+.home-info {
+    display: flex;
+    margin-top: 15vh;
+    align-items: center;
+    width: 64vw;
+    justify-content: space-between;
+}
+
+.home-circles {
+    width: 52vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-circles img{
+    width: 17.5vh;
+}
+
+.cirle-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 0;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered p {
+    font-weight: 400;
+    font-size: 1.8vh;
+    line-height: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+}
+
+.centered h4 {
+    font-weight: 400;
+    font-size: 3vh;
+    line-height: 40px;
+    font-family: 'Kharkiv Tone';
+}
+
+.home-bg-img {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.home-bg-img img {
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    object-fit: cover;
+}
+
+#burger-menu {
+    display: none;
+}
+
+
+@media (max-width: 860px) {
+    .header-nav {
+        display: none;
+    }
+
+    #burger-menu {
+        display: flex;
+    }
+}
+
+/* @media (max-width: 1600px) {
+    .header {
+        height: 800px;
+    }
+
+    .home {
+        padding-top: 150px;
+    }
+
+    .home-info {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .header {
+        height: 800px;
+    }
+    .container {
+        width: 1060px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .home-content {
+        max-width: 1060px;
+    }
+
+    .home {
+        padding-top: 150px;
+    }
+
+    .home-info {
+        margin-top: 50px;
+    }
+    .home-hedding {
+        font-size: 90px;
+        line-height: 90px;
+    }
+}
+
+@media (max-width: 1390px) {
+    .header {
+        height: 700px;
+    }
+    .container {
+        width: 1100px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .home-content {
+        max-width: 800px;
+    }
+
+    .cirle-container {
+        margin-right: 80px;
+    }
+    .circle {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .home-hedding {
+        margin-right: 0px;
+        font-size: 76px;
+        line-height: 76px;
+        margin-right: 400px;
+    }
+
+    .home {
+        padding-top: 90px;
+    }
+
+    .home-info {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1190px) {
+}
+
+@media (max-width: 1190px) {
+    .home-hedding {
+        margin-right: 200px;
+    }
+    .container {
+        width: 900px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .home-content {
+        max-width: 600px;
+    }
+
+    .cirle-container {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .header {
+        height: 1200px;
+    }
+    .container {
+        width: 800px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .home-content {
+        max-width: 500px;
+    }
+
+    .cirle-container {
+        margin-right: 40px;
+    }
+
+    .home-info {
+        margin-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .home-circles {
+        flex-direction: column;
+    }
+
+    .home-hedding {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .header {
+        height: 1300px;
+    }
+    .container {
+        width: 700px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .home-content {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 780px) {
+    .header {
+        height: 1400px;
+    }
+    .container {
+        width: 600px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .home-content {
+        max-width: 400px;
+    }
+
+    .home {
+        padding-top: 160px;
+    }
+
+    .home-hedding {
+        font-family: 'Kharkiv Tone';
+        font-weight: 400;
+        font-size: 76px;
+        line-height: 77px;
+    }
+}
+
+@media (max-width: 860px) {
+    .header-nav {
+        display: none;
+    }
+
+    #burger-menu {
+        display: flex;
+    }
+}
+
+@media (max-width: 690px) {
+
+    .header {
+        height: 1200px;
+    }
+
+    .container {
+        width: 500px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .home-content {
+        max-width: 300px;
+    }
+
+    .home-hedding {
+        font-size: 45px;
+        line-height: 45px;
+        letter-spacing: 0.1em;
+    }
+
+    .circle {
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .header {
+        height: 1450px;
+    }
+
+    .container {
+        width: 400px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .home-content {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 450px) {
+    
+    .header {
+        height: 1200px;
+    }
+    .container {
+        width: 300px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .home-content {
+        max-width: 300px;
+    }
+
+    .home-info {
+        margin-top: 55px;
+    }
+
+    .home-hedding {
+        font-size: 35px;
+        line-height: 35px;
+        letter-spacing: 0.1em;
+    }
+
+    .circle {
+        width: 170px !important;
+        height: 170px !important;
+    }
+
+    .centered h4 {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 20px;
+        font-family: 'Kharkiv Tone';
+    }
+} */

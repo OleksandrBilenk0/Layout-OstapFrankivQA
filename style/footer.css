@@ -1,0 +1,128 @@
+.footer {
+    width: 100%;
+    height: 960px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-image: url(../images/footer/Group.png);
+    background-size: cover;
+    margin-top: -96px;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-hedding {
+    width: 521px;
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 65px;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer-nav {
+    margin-top: 380px;
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer-nav li{
+    margin-right: 52px;
+    font-family: 'Kharkiv Tone';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    opacity: 0.75;
+    cursor: pointer;
+    letter-spacing: 0.14em;
+}
+
+.footer-nav li:last-child{
+    margin-right: 0;
+}
+
+
+/* @media (max-width: 1550px) {
+    .footer-nav li{
+        margin-right: 52px;
+        font-family: 'Kharkiv Tone';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #A8A8A8;
+        opacity: 0.75;
+        cursor: pointer;
+        letter-spacing: 0.14em;
+    }
+}
+
+
+@media (max-width: 1190px) {
+    .footer-nav li{
+        margin-right: 52px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .footer-nav {
+        margin-top: 140px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .footer-nav li {
+        margin-right: 0;
+        margin-bottom: 60px;
+        
+    }
+}
+
+@media (max-width: 900px) {
+    .footer-hedding {
+        font-size: 32px;
+        line-height: 32px; 
+    }
+
+    .footer-nav li {
+        font-size: 14px;
+        line-height: 14px;
+        opacity: 0.75;
+    }
+}
+
+@media (max-width: 560px) {
+    .footer {
+        height: 100%;
+    }
+    .footer-hedding {
+        margin-top: 140px;
+    }
+
+    .footer-nav {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .footer-nav li {
+        margin-bottom: 20px;
+    }
+} */

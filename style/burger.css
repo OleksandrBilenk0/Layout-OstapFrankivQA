@@ -1,0 +1,138 @@
+#burger-menu {
+  cursor: pointer;
+  height: 33px;
+  width: 33px;
+  overflow: visible;
+  position: absolute;
+  z-index: 99;
+  right: 33px;
+  top: 40px;
+}
+
+#burger-menu span,
+#burger-menu span:before,
+#burger-menu span:after {
+  display: block;
+  margin-bottom: 6px;
+  width: 33px;
+  height: 4px;
+  background-color: #d2cecd;
+  opacity: 1;
+  position: absolute;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out
+}
+
+#burger-menu span:before,
+#burger-menu span:after {
+  content: ""
+}
+
+#burger-menu span {
+  right: 0;
+  top: 13px;
+  z-index: 13;
+  width: 33px
+}
+
+#burger-menu span:before {
+  left: 0;
+  top: -10px;
+  width: 33px
+}
+
+#burger-menu span:after {
+  left: 0;
+  top: 10px;
+  width: 33px
+}
+
+#burger-menu.close span {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 163px;
+  right: 163px;
+  width: 33px;
+  position: absolute
+}
+
+#burger-menu.close span:before {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 33px;
+  position: absolute
+}
+
+#burger-menu.close span:after {
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  opacity: 1;
+  width: 33px;
+  position: absolute
+}
+
+#menu {
+  z-index: 12;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 1;
+  text-align: center;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#menu.overlay {
+  visibility: visible;
+  opacity: 1;
+  background: rgba(0, 0, 0, 1);
+  left: 0;
+  position: fixed;
+}
+
+#menu li {
+  list-style: none
+}
+
+#menu ul {
+  margin-top: 300px;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#menu a {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  background: none;
+  font-family: 'Kharkiv Tone';
+  font-weight: 400;
+  line-height: 16px;
+  color: #fff;
+  opacity: 0.75;
+  text-transform: uppercase;
+}
+
+#burger-menu.close span{
+  
+  right: 0px !important;
+  top: 12px !important;
+}
