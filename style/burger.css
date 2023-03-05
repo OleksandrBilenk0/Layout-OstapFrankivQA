@@ -136,3 +136,13 @@
   right: 0px !important;
   top: 12px !important;
 }
+
+#burger-menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+  #burger-menu {
+      display: flex;
+  }
+}

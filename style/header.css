@@ -40,6 +40,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
+    margin-right: -8%;
 }
 
 .header-nav-top {
@@ -64,9 +65,9 @@ body {
 .home-hedding {
     font-family: 'Kharkiv Tone';
     font-weight: 400;
-    font-size: 8.5vh;
-    line-height: 9vh;
-    width: 100vh;
+    font-size: 96px;
+    line-height: 96px;
+    width: 60vw;
 }
 
 .home-info {
@@ -85,7 +86,8 @@ body {
 }
 
 .home-circles img{
-    width: 17.5vh;
+    width: 218px;
+    height: 218px;
 }
 
 .cirle-container {
@@ -104,15 +106,15 @@ body {
 
 .centered p {
     font-weight: 400;
-    font-size: 1.8vh;
-    line-height: 2vh;
+    font-size: 16px;
+    line-height: 20px;
     font-family: 'Montserrat', sans-serif;
     text-transform: none;
 }
 
 .centered h4 {
     font-weight: 400;
-    font-size: 3vh;
+    font-size: 40px;
     line-height: 40px;
     font-family: 'Kharkiv Tone';
 }
@@ -134,285 +136,118 @@ body {
     object-fit: cover;
 }
 
-#burger-menu {
-    display: none;
-}
 
-
-@media (max-width: 860px) {
-    .header-nav {
-        display: none;
-    }
-
-    #burger-menu {
-        display: flex;
-    }
-}
-
-/* @media (max-width: 1600px) {
-    .header {
-        height: 800px;
-    }
-
-    .home {
-        padding-top: 150px;
-    }
-
-    .home-info {
-        margin-top: 50px;
-    }
-}
-
-@media (max-width: 1550px) {
-    .header {
-        height: 800px;
-    }
-    .container {
-        width: 1060px;
-        padding-left: auto;
-        padding-right: auto;
-    }
-    .home-content {
-        max-width: 1060px;
-    }
-
-    .home {
-        padding-top: 150px;
-    }
-
-    .home-info {
-        margin-top: 50px;
-    }
+@media (max-width: 1400px) {
     .home-hedding {
-        font-size: 90px;
-        line-height: 90px;
-    }
-}
-
-@media (max-width: 1390px) {
-    .header {
-        height: 700px;
-    }
-    .container {
-        width: 1100px;
-        padding-left: auto;
-        padding-right: auto;
-    }
-    .home-content {
-        max-width: 800px;
+        font-size: 80px;
+        line-height: 80px;
     }
 
-    .cirle-container {
-        margin-right: 80px;
-    }
-    .circle {
-        width: 200px !important;
-        height: 200px !important;
-    }
-
-    .home-hedding {
-        margin-right: 0px;
-        font-size: 76px;
-        line-height: 76px;
-        margin-right: 400px;
-    }
-
-    .home {
-        padding-top: 90px;
-    }
-
-    .home-info {
-        margin-top: 40px;
-    }
-}
-
-@media (max-width: 1190px) {
-}
-
-@media (max-width: 1190px) {
-    .home-hedding {
-        margin-right: 200px;
-    }
-    .container {
-        width: 900px;
-        padding-left: auto;
-        padding-right: auto;
-    }
-
-    .home-content {
-        max-width: 600px;
-    }
-
-    .cirle-container {
-        margin-right: 40px;
-    }
-}
-
-@media (max-width: 1024px) {
-
-    .header {
-        height: 1200px;
-    }
-    .container {
-        width: 800px;
-        padding-left: auto;
-        padding-right: auto;
-    }
-
-    .home-content {
-        max-width: 500px;
-    }
-
-    .cirle-container {
-        margin-right: 40px;
-    }
-
-    .home-info {
-        margin-top: 120px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .home-circles {
-        flex-direction: column;
-    }
-
-    .home-hedding {
-        display: flex;
-        align-items: center;
-    }
-}
-
-@media (max-width: 900px) {
-    .header {
-        height: 1300px;
-    }
-    .container {
-        width: 700px;
-        padding-left: auto;
-        padding-right: auto;
-    }
-
-    .home-content {
-        max-width: 500px;
-    }
-}
-
-@media (max-width: 780px) {
-    .header {
-        height: 1400px;
-    }
-    .container {
-        width: 600px;
-        padding-left: auto;
-        padding-right: auto;
-    }
-
-    .home-content {
-        max-width: 400px;
-    }
-
-    .home {
-        padding-top: 160px;
-    }
-
-    .home-hedding {
-        font-family: 'Kharkiv Tone';
-        font-weight: 400;
-        font-size: 76px;
-        line-height: 77px;
-    }
-}
-
-@media (max-width: 860px) {
-    .header-nav {
-        display: none;
-    }
-
-    #burger-menu {
-        display: flex;
-    }
-}
-
-@media (max-width: 690px) {
-
-    .header {
-        height: 1200px;
-    }
-
-    .container {
-        width: 500px;
-        padding-left: auto;
-        padding-right: auto;
-    }
-
-    .home-content {
-        max-width: 300px;
-    }
-
-    .home-hedding {
-        font-size: 45px;
-        line-height: 45px;
-        letter-spacing: 0.1em;
-    }
-
-    .circle {
-        width: 200px !important;
-        height: 200px !important;
-    }
-}
-
-@media (max-width: 560px) {
-
-    .header {
-        height: 1450px;
-    }
-
-    .container {
-        width: 400px;
-        padding-left: auto;
-        padding-right: auto;
-    }
-
-    .home-content {
-        max-width: 300px;
-    }
-}
-
-@media (max-width: 450px) {
-    
-    .header {
-        height: 1200px;
-    }
-    .container {
-        width: 300px;
-        padding-left: auto;
-        padding-right: auto;
-    }
-
-    .home-content {
-        max-width: 300px;
-    }
-
-    .home-info {
-        margin-top: 55px;
-    }
-
-    .home-hedding {
-        font-size: 35px;
-        line-height: 35px;
-        letter-spacing: 0.1em;
-    }
-
-    .circle {
-        width: 170px !important;
-        height: 170px !important;
+    .home-circles img {
+        width: 180px;
+        height: 180px;
     }
 
     .centered h4 {
         font-weight: 400;
-        font-size: 32px;
-        line-height: 20px;
+        font-size: 30px;
+        line-height: 30px;
         font-family: 'Kharkiv Tone';
     }
-} */
+
+    .arrow-down img {
+        width: 60px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .home-hedding {
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .home-hedding {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .home-circles img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .centered h4 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: 'Kharkiv Tone';
+    }
+
+    .arrow-down img {
+        width: 50px;
+    }
+
+    .home-info {
+        margin-top: 10vh;
+        width: 71vw
+    }
+}
+
+@media (max-width: 870px) {
+    .home-hedding {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .home-circles {
+        width: unset;
+        height: 48vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        left: 0;
+    }
+
+    .home-info {
+        margin-top: 10vh;
+        width: 71vw
+    }
+}
+
+@media (max-width: 768px) {
+    .header-nav {
+        display: none;
+    }
+
+    #burger-menu {
+        display: flex;
+    }
+}
+
+@media (max-width: 870px) {
+    .home-hedding {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .home-info {
+        margin-top: 5vh;
+    }
+}
+
+@media (max-width: 580px) {
+    .home {
+        padding-top: 6vh;
+    }
+    .home-hedding {
+        font-size: 36px;
+        line-height: 36px;
+        width: 71vw;
+    }
+
+    .home-info {
+        margin-top: 4vh;
+    }
+}
+
