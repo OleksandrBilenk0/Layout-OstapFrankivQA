@@ -58,35 +58,44 @@
     padding: 0;
     list-style: none;
     text-align: center;
+    align-items: center;
 }
 
 .slick-dots li {
     position: relative;
     display: inline-block;
-    width: 6px;
-    height: 6px;
+    width: 15px;
+    height: 15px;
     margin: 0 5px;
     padding: 0;
     cursor: pointer;
+    border-radius: 25px; 
+    padding: 15px; 
+    background:linear-gradient(90deg,#9747FF, #5A77F6); 
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+        mask-composite: exclude; 
+        margin: 0px 1.042vw;
 }
 .slick-dots li button {
     display: none;
 }
-.slick-dots li:before {
-    top: 1px;
-    transition: all .5s;
-    content: '';
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    background-image: url(../images/projects/Ellipse\ 9.png);
 
-}
 .slick-dots li.slick-active:before {
     top: 0;
     width: 36px;
     height: 36px;
-    background-image: url(../images/projects/Ellipse\ 6.png);
+    border-radius: 25px; 
+    padding: 18px; 
+    background:linear-gradient(90deg,#7b16ff, #2449ee); 
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+        mask-composite: exclude; 
+        margin: 0px 1.042vw;
 }
 
 .slick-prev {
@@ -373,6 +382,13 @@
         text-align: center;
         align-items: center;
         color: white;
+    }
+}
+
+@media (max-width: 540px) {
+    .slider-text {
+        font-size: 12px;
+        line-height: 12px;
     }
 }
 
