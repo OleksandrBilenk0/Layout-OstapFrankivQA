@@ -144,6 +144,9 @@ body {
 }
 
 @media (max-height: 800px) {
+    .header {
+        height: 100%;
+    }
     .home-hedding {
         font-size: 60px;
         line-height: 60px;
