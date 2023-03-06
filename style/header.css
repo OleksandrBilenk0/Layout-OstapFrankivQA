@@ -156,44 +156,44 @@ body {
 
 @media (max-width: 455px) {
     .container {
-        width: 78vw;
+        width: 90vw;
     }
 
     .home-hedding {
-        width: 78vw !important;
+        width: 290px !important;
         font-size: 32px !important;
+    }
+
+    .home-info {
+        width: 90vw !important;
     }
 }
 
-    /* .header {
-        height: 100%;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    } */
-    /* .home-hedding {
-        font-size: 80px;
-        line-height: 80px;
-    }
-
-    .home-circles img {
-        width: 180px;
-        height: 180px;
-    }
-
-    .centered h4 {
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 30px;
-        font-family: 'Kharkiv Tone';
-    }
-
+@media (max-width: 1024px) and (max-height: 1000px) {
     .arrow-down img {
-        width: 60px;
+         margin-bottom: -10vh;
     }
-} */
+}
+
+
+@media (max-width: 1024px) and ( max-height: 830px) {
+    .arrow-down img {
+         margin-bottom: -15vh;
+    }
+}
+
+@media (max-width: 1024px) and ( max-height: 730px) {
+    .arrow-down img {
+         margin-bottom: -15vh;
+    }
+}
+
+@media (max-width: 1024px) and ( max-height: 630px) {
+    .arrow-down img {
+         margin-bottom: -25vh;
+    }
+}
+
 
 @media (max-width: 1160px) {
     .home-hedding {

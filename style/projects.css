@@ -234,24 +234,83 @@
     }
 }
 
+@media (max-width: 1500px) {
+    .slider-text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .comandSlider__item::before {
+        height: 800px;
+        padding: 5px;
+        margin: 0px 20px;
+    }
+
+    .slick-slider .comandSlider__item {
+    
+        height: 800px;
+    }
+}
+
+
 @media (max-width: 1390px) {
     .projects {
         margin-top: 300px;
     }
+
+    .slick-slider .comandSlider__item {
+        cursor: pointer;
+        margin: 0;
+        padding: 40px 10px 0px;
+        height: 845px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        color: white;
+    }
 }
+
+@media (max-width: 1390px) {
+    .slick-slider .comandSlider__item {
+        padding: 40px 13px 0px;
+    }
+}
+
+
+@media (max-width: 1260px) {
+    .slick-slider .comandSlider__item {
+    height: 780px;
+}
+}
+
+
+@media (max-width: 1190px) {
+    .comandSlider__item::before {
+        margin: 0px 10px;
+    }
+    .comandSlider__item {
+        padding: 40px 80px 0px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .slick-next {
+        right: -20px;
+    }
+    .slick-prev {
+        left: -20px;
+    }
+}
+
+
 @media (max-width: 900px) {
     .projects-hedding {
         font-size: 32px;
         line-height: 32px; 
-    }
-}
-
-@media (max-width: 1190px) {
-    .comandSlider__item::before {
-        margin: 0px 60px;
-    }
-    .comandSlider__item {
-        padding: 40px 80px 0px;
     }
 }
 
@@ -279,9 +338,13 @@
     }
 
     .comandSlider__item::before {
-        height: 845px;  /* height of slider */
+        height: 780px;  /* height of slider */
         padding: 5px; 
         margin: 0px 90px;
+    }
+
+    .slick-dots {
+        margin-top: -80px;
     }
 
     .slider-text {
@@ -296,8 +359,7 @@
 
     .slick-slider .comandSlider__item {
         padding: 40px 90px 0px;
-        height: 790px;
-        /* justify-content: unset;    */
+        height: 720px;
     }
 
     .slider-text {
@@ -408,5 +470,14 @@
         margin: 0;
         padding: 40px 20px 0px;
         height: 750px;
+    }
+}
+
+@media (max-width: 460px) {
+    .projects-content {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
