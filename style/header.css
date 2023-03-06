@@ -158,6 +158,11 @@ body {
     .container {
         width: 78vw;
     }
+
+    .home-hedding {
+        width: 78vw !important;
+        font-size: 32px !important;
+    }
 }
 
     /* .header {
@@ -168,7 +173,7 @@ body {
         align-items: center;
 
     } */
-    .home-hedding {
+    /* .home-hedding {
         font-size: 80px;
         line-height: 80px;
     }
@@ -188,7 +193,7 @@ body {
     .arrow-down img {
         width: 60px;
     }
-}
+} */
 
 @media (max-width: 1160px) {
     .home-hedding {
@@ -232,7 +237,7 @@ body {
     }
     .home-circles {
         width: unset;
-        height: 48vh;
+        height: 50vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -241,7 +246,8 @@ body {
 
     .home-info {
         margin-top: 10vh;
-        width: 71vw
+        width: 71vw;
+        height: 50vh;
     }
 }
 
