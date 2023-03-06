@@ -247,24 +247,7 @@
     margin-bottom: -10vh;
 }
 
-/* @media (max-width: 1100px) {
-    .comandSlider__item::before {
-        content: "";
-        width: 34vw;
-        position: absolute;
-        height: 70vh; 
-        inset: 0;
-        border-radius: 25px; 
-        padding: 5px; 
-        background:linear-gradient(90deg,#9747FF, #5A77F6); 
-        -webkit-mask: 
-            linear-gradient(#fff 0 0) content-box, 
-            linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-            mask-composite: exclude; 
-            margin: 0px 0px;
-    }
-} */
+
 
 @media (max-width: 700px) {
     .projects-hedding {
@@ -354,6 +337,14 @@
         line-height: 16px;
     }
 }
+
+@media (max-width: 770px) and (max-height: 710px) {
+    .slider-text {
+        font-size: 1vh;
+        line-height: 1.2vh;
+    }
+}
+
 
 @media (max-width: 705px) and (max-height: 700px) {
     .comandSlider__item h3 {
