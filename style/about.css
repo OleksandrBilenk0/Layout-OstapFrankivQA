@@ -221,7 +221,7 @@ b {
         font-size: 50px;
         line-height: 50px;
     }
-    
+
     .info-about-user {
         text-align: center;
     }
@@ -277,7 +277,7 @@ b {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    } 
+    }
 }
 
 @media (max-width: 480px) {
@@ -295,4 +295,24 @@ b {
     .about-content {
         width: 90vw;
     }
+}
+
+
+.item{
+    width: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    transition: height .3s ease-in;
+}
+.item-more {
+    display: none;
+    transition: height .3s ease-in;
+    height: 0px;
+}
+.show-more > .item-more {
+    display: block;
+    height: auto;
+    transition: height .3s ease-in;
 }
