@@ -15,12 +15,16 @@
 .skills-hedding {
     display: flex;
     justify-content: center;
-    font-family: 'Kharkiv Tone';
+    font-family: 'Angkor';
     font-weight: 400;
+    letter-spacing: 0.1em;
+    align-items: center;
     font-size: 64px;
     line-height: 65px;
     background-color: #2AA5A0;
     background-image: linear-gradient(99.73deg, #9747FF 0.42%, #5A77F6 109.59%);
+    animation: gradient 5s linear infinite;
+    background-size: 400% 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -110,6 +114,51 @@ img.skill-circle {
     font-weight: 400;
     font-size: 2vh;
     line-height: 2.2vh;
+}
+
+.experience-technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    padding: 0 30px;
+}
+
+.experience-technologies h2{
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Angkor';
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    align-items: center;
+    font-size: 36px;
+    line-height: 36px;
+    margin-right: -8%;
+    text-align: center;
+    background-color: #2AA5A0;
+    background-image: linear-gradient(99.73deg, #9747FF 0.42%, #5A77F6 109.59%);
+    animation: gradient 5s linear infinite;
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.technologies-text {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.technologies-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
 }
 
 @media (max-width: 1800px) {
@@ -263,10 +312,13 @@ img.skill-circle {
         margin-bottom: 2vh;
     }
 
-    /* .experience-item p {
-        font-size: 16px;
-        line-height: 16px;
-    } */
+    .technologies-text p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 40px;
+    }
 }
 
 
@@ -295,7 +347,38 @@ img.skill-circle {
     .experience-item {
         width: 200px;
     }
+
+    .technologies-text {
+        width: 100%;
+    }
 }
+
+@media (max-width: 600px) {
+    .experience-technologies h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .technologies-text p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 530px) {
+    .experience-technologies {
+        
+    }
+    .technologies-text  {
+        flex-direction: column;
+    }
+    .technologies-text p:first-child {
+        margin-bottom: 30px;
+    }
+}
+
 
 @media (max-width: 455px) {
     .skills-hedding {
