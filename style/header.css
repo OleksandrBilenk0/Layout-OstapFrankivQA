@@ -1,8 +1,9 @@
+
 body {
     font-family: 'Goldman', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Kharkiv Tone', sans-serif;
-    font-family: 'Angkor', cursive;
+    font-family: 'Futura PT', sans-serif;
     background-color: black;
     overflow-x: hidden;
     overflow-y: visible;
@@ -70,8 +71,8 @@ body {
 .home-hedding {
     font-family: 'Kharkiv Tone';
     font-weight: 400;
-    font-size: 96px;
-    line-height: 96px;
+    font-size: 80px;
+    line-height: 85px;
     width: 60vw;
 }
 
@@ -79,7 +80,7 @@ body {
     display: flex;
     margin-top: 10vh;
     align-items: center;
-    width: 71vw;
+    width: 78vw;
     justify-content: space-between;
 }
 

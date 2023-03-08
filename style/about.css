@@ -1,7 +1,8 @@
+
 .about {
     height: 100%;
     color: white;
-    margin-top: 300px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,8 +16,8 @@
 .about-hedding {
     display: flex;
     justify-content: center;
-    font-family: 'Angkor';
-    font-weight: 400;
+    font-family: "Futura PT";
+    font-weight: 900;
     letter-spacing: 0.1em;
     align-items: center;
     font-size: 64px;
@@ -27,6 +28,7 @@
     background-size: 400% 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 @keyframes gradient {
