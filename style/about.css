@@ -319,3 +319,12 @@ b {
         width: 90vw;
     }
 }
+
+@media (max-height: 800px) {
+    .about {
+        margin-top: 400px;  
+    }
+}
+
+
+
