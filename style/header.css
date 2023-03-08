@@ -64,7 +64,7 @@ body {
 
 .home {
     position: relative;
-    padding-top: 10vh;
+    padding-top: 8vh;
     width: 64vw;
 }
 
@@ -72,13 +72,13 @@ body {
     font-family: 'Kharkiv Tone';
     font-weight: 400;
     font-size: 80px;
-    line-height: 85px;
+    line-height: 75px;
     width: 60vw;
 }
 
 .home-info {
     display: flex;
-    margin-top: 10vh;
+    margin-top: 7vh;
     align-items: center;
     width: 78vw;
     justify-content: space-between;
