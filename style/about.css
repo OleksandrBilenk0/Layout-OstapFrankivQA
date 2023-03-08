@@ -186,6 +186,9 @@ b {
         flex-direction: column;
         padding-top: 5vh;
     }
+    .user-photo {
+        width: 30vw;
+    }
     .info-about-user {
         margin-top: 4vh;
         width: 64vw;
@@ -206,6 +209,10 @@ b {
     .lenguage p {
         font-size: 18px;
         line-height: 18px;
+    }
+
+    .user-photo {
+        width: 40vw;
     }
 }
 
@@ -271,6 +278,12 @@ b {
         flex-direction: column;
         justify-content: space-between;
     } 
+}
+
+@media (max-width: 480px) {
+    .user-photo {
+        width: 50vw;
+    }
 }
 
 @media (max-width: 455px) {
