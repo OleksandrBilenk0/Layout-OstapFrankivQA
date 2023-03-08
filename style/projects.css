@@ -27,6 +27,7 @@
     background-size: 400% 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .projects-info {
@@ -328,6 +329,11 @@
         font-size: 14px;
         line-height: 17px;
     }
+
+    .more-text {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }
 
 @media (max-width: 1450px) {
@@ -437,6 +443,11 @@
         line-height: 15px;
     }
 
+    .more-text {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
     .comandSlider__item::before {
         height: 780px;  /* height of slider */
         padding: 5px; 
@@ -445,11 +456,6 @@
 
     .slick-dots {
         margin-top: -80px;
-    }
-
-    .slider-text {
-        font-size: 14px;
-        line-height: 15px;
     }
 
     .comandSlider__item h3 {
@@ -465,7 +471,13 @@
     .slider-text {
         width: 90%;
         height: 50%;
-        justify-content: space-evenly   ;
+        justify-content: space-evenly;
+    }
+
+    .more-text {
+        width: 90%;
+        height: 50%;
+        justify-content: space-evenly;
     }
 
     .comandSlider__item a {
@@ -515,7 +527,13 @@
         line-height: 15px;
         width: 90%;
         height: 50%;
-    
+    }
+
+    .more-text {
+        font-size: 14px;
+        line-height: 15px;
+        width: 90%;
+        height: 50%;
     }
 
     .comandSlider__item h3 {
@@ -544,6 +562,11 @@
 
 @media (max-width: 540px) {
     .slider-text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .more-text {
         font-size: 12px;
         line-height: 12px;
     }
