@@ -1,7 +1,7 @@
 .tools {
     height: 100vh;
     color: white;
-    margin-top: 300px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,9 +96,6 @@
 }
 
 @media (max-width: 768px) {
-    .tools {
-    margin-top: 300px;
-}
 
 .tools-title {
     width: 247px;
@@ -205,29 +202,5 @@
     .tools-content {
         width: 90vw;
     }
-}
-
-
-
-@media (max-height: 1000px) {
-    .tools {
-        height: 100vh;
-        padding-top: 100px;
-    }
-}
-
-@media (max-height: 900px) {
-    .tools {
-        height: 100vh;
-        padding-top: 300px;
-    }
-}
-
-@media (max-height: 800px) {
-    .tools {
-        height: 100vh;
-        padding-top: 400px;
-    }
-
 }
 
