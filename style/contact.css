@@ -36,6 +36,41 @@
 }
 
 .contact-btn {
+    position: relative;
+    width: 205px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 250px;
+    background-color: black;
+}
+
+.contact-btn:hover::before {
+    padding: 25px;
+    animation: gradient 3s linear infinite;
+}
+
+.contact-btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 250px; 
+    padding: 2px; 
+    background:linear-gradient(90deg,#01460a, #51ff01); 
+    animation: gradient 2s linear infinite;
+    background-size: 400% 400%;
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+        mask-composite: exclude; 
+}
+
+
+.contact-btn a{
     font-family: 'Goldman';
     font-weight: 400;
     font-size: 16px;
@@ -46,32 +81,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-
-    position: relative;
-    width: 205px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
+    z-index: 999;
 }
 
-.contact-btn::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 250px; 
-    padding: 2px; 
-    background:linear-gradient(90deg,#01460a, #51ff01); 
-      animation: gradient 2s linear infinite;
-    background-size: 400% 400%;
-    -webkit-mask: 
-        linear-gradient(#fff 0 0) content-box, 
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-        mask-composite: exclude; 
-}
 
 @media (max-width: 1000px) {
     .contact-hedding {

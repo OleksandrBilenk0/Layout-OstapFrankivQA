@@ -58,7 +58,7 @@
 }
 .slick-dots {
     display: flex !important;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0;
     list-style: none;
     text-align: center;
@@ -74,7 +74,7 @@
     padding: 0;
     cursor: pointer;
     border-radius: 25px; 
-    padding: 12px; 
+    padding: 6px; 
     background:linear-gradient(90deg,#9747FF, #5A77F6); 
     -webkit-mask: 
         linear-gradient(#fff 0 0) content-box, 
@@ -92,7 +92,7 @@
     width: 5px;
     height: 5px;
     border-radius: 25px; 
-    padding: 15px; 
+    padding: 9px; 
     background:linear-gradient(90deg,#7b16ff, #2449ee); 
     -webkit-mask: 
         linear-gradient(#fff 0 0) content-box, 
@@ -120,6 +120,8 @@
     background-color: transparent;
     border: none;
     background-image: url(../images/projects/right.png);
+    background-position: 50%;
+    background-size: 50%;
     background-repeat: no-repeat;
 }
 
@@ -147,6 +149,52 @@
     align-items: center;
     color: white;
 }
+
+#slick-slider img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#slick-slider2 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#slick-slider3 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#slick-slider4 img {
+    margin-bottom: 30px;
+}
+
+#slick-slider5 img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#slick-slider7 img{
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+#slick-slider8 img{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#slick-slider9 img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#slick-slider10 img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
 
 .comandSlider__item button {
     position: relative;
@@ -208,7 +256,7 @@
 .comandSlider__item h3 {
     width: 90%;
     font-family: 'Kharkiv Tone';
-    font-weight: 400;
+    font-weight: 900;
     font-size: 24px;
     line-height: 24px;
     text-align: center;
@@ -223,10 +271,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 12px;
-
     font-family: 'Montserrat';
+    margin-top: 12px;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -282,7 +328,7 @@
 .slick-list.draggable {
     height: 1050px;
     margin-top: -100px;
-    margin-bottom: -50px;
+    margin-bottom: -120px;
 }
 
 
@@ -327,7 +373,7 @@
 @media (max-width: 1500px) {
     .slider-text {
         font-size: 14px;
-        line-height: 17px;
+        line-height: 15px;
     }
 
     .more-text {
@@ -346,10 +392,6 @@
     .slick-slider .comandSlider__item {
     
         height: 800px;
-    }
-
-    .slick-arrow {
-        top: 45%;
     }
 }
 
@@ -454,9 +496,6 @@
         margin: 0px 90px;
     }
 
-    .slick-dots {
-        margin-top: -80px;
-    }
 
     .comandSlider__item h3 {
         font-size: 20px;
