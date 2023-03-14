@@ -1,42 +1,4 @@
 .footer {
-    /* width: 100%;
-    height: 560px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-position: end;
-    background-image: url(../images/footer/Group.png);
-    background-size: cover;
-    margin-top: -96px; */
-
-
-    /* width: 100%;
-    height: 460px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-position: end;
-    background-position-y: center;
-    background-position-x: center;
-    background-image: url(../images/footer/Group.png);
-    background-size: cover;
-    margin-top: 200px; */
-
-    /* width: 100%;
-    height: 560px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-position: end;
-    background-position-y: center;
-    background-position-x: center;
-    background-image: url(../images/footer/Group.png);
-    background-size: cover;
-    margin-top: 0px; */
-
     width: 100%;
     height: 50vh;
     padding-top: 200px;
@@ -68,6 +30,7 @@
     text-transform: uppercase;
     margin-top: 250px;
     align-items: center;
+    justify-content: center;
 }
 
 .footer-logo {
@@ -236,6 +199,17 @@
     }
 }
 
+@media (max-width: 490px) {
+    img.footer-logo {
+        width: 320px;
+    }
+}
+
+@media (max-width: 390px) {
+    img.footer-logo {
+        width: 280px;
+    }
+}
 /* @media (max-width: 1550px) {
     .footer-nav li{
         margin-right: 52px;
