@@ -116,6 +116,11 @@ b {
     color: white;
 }
 
+.another-color {
+    color: rgb(140 209 61) !important;
+    font-weight: bold;
+}
+
 .user-info-middle {
     display: flex;
     align-items: center;

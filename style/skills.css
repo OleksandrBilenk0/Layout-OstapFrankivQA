@@ -82,7 +82,7 @@ img.skill-circle {
     flex-direction: column;
     justify-content: space-between;
     margin-top: 8vh;
-    height: 400px;
+    height: 360px;
     width: 71vw;
 }
 
@@ -105,7 +105,7 @@ img.skill-circle {
 }
 
 .experience-item img {
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
 }
 
 .experience-item p {
