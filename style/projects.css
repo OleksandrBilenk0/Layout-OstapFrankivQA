@@ -240,15 +240,14 @@
 .comandSlider__item::before {
     content: "";
     position: absolute;
-    width: 95%;
     height: 865px;  /* height of slider */
     inset: 0;
     border-radius: 25px; 
     padding: 7px; 
-    background:linear-gradient(45deg,#6c00fa, #51ff01); 
+    background:linear-gradient(45deg,#9747FF, #51ff01); 
         animation: gradient 5s linear infinite;
     background-color: #2AA5A0;
-    background-size: 400% 400%;
+    background-size: 500% 200%;
     -webkit-mask: 
         linear-gradient(#fff 0 0) content-box, 
         linear-gradient(#fff 0 0);
