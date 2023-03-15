@@ -69,7 +69,6 @@
    width: 26.6vw;
 }
 
-
 .photo-wrapper::before {
     content: "";
     width: 28vw;
